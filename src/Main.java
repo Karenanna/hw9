@@ -6,7 +6,7 @@ public class Main {
         int total = 0;
         int months = 1;
         while (total <= 2_459_000) {
-            total = total + money;
+            total = total += money;
             total = total + total / 100;
             months++;
             System.out.println("Месяц " + months + "сумма накоплений равнв" + total + " рублей.");
